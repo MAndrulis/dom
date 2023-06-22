@@ -4,7 +4,7 @@
 // - css variklis
 // - js variklis
 // - localStorage variklis
-console.clear();
+//console.clear();
 
 // Paspaudus <button> elementa
 // <h1> elemente pasikeicia tekstas
@@ -41,6 +41,12 @@ if (buttomDOM === null) {
     }
 }
 */
+import { renderHeader } from './header.js';
+
+renderHeader(true);
+
+// console.clear();
+
 const buttomDOM = document.getElementById('mygtukas');
 const titleDOM = document.getElementById('antraste');
 
@@ -49,4 +55,3 @@ function kaDaryti() {
 }
 
 buttomDOM.addEventListener('click', kaDaryti);
-
