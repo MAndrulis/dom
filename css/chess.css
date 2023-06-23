@@ -1,3 +1,25 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 75vmin;
+    height: 75vmin;
+    outline: 10px solid #ccc;
+}
+.board > .row {
+    display: flex;
+    height: 100%;
+}
+.board > .row > .cell {
+    width: 100%;
+    background-color: #f8f8f8;
+    /* outline: 1px solid red; */
+}
+.board > .row > .cell.black {
+    background-color: #333;
+}
+
+
+/*
 body {
     background-color: gray;
     width: 100%;
@@ -25,3 +47,4 @@ body {
     .div-row {
     display: flex;
     }
+    */
