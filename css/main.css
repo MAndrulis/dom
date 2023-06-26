@@ -35,12 +35,14 @@ button {
 
 form {
     display: flex;
+    max-width: 90vw;
     gap: 2rem;
     align-items: center;
     font-size: 3rem;
 }
 
 form > button {
+    width: auto;
     background-color: red;
 }
 form > button:last-child {
